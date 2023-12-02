@@ -1,6 +1,5 @@
-from requests import Session
-
 from gsoc2.models.api import GetSecretsDTO, SecretsResponse
+from requests import Session
 
 
 def get_secrets_req(api_request: Session, options: GetSecretsDTO) -> SecretsResponse:
