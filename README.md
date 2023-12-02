@@ -1,8 +1,3 @@
-<h1 align="center">
-    <a href="https://github.com/gsoc2/gsoc2">
-        <img width="300" src="https://raw.githubusercontent.com/Gsoc2/gsoc2-node/main/img/logoname-white.svg#gh-dark-mode-only" alt="gsoc2">
-    </a>
-</h1>
 <p align="center">
   <p align="center">Open-source, end-to-end encrypted tool to manage secrets and configs across your team and infrastructure.</p>
 </p>
