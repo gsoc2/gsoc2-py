@@ -7,7 +7,6 @@ from nacl import public, utils
 
 Base64String = str
 Buffer = Union[bytes, bytearray, memoryview]
-import binascii
 
 
 def encrypt_asymmetric(
@@ -116,7 +115,6 @@ def create_symmetric_key_helper():
 
 
 def encrypt_symmetric_helper(plaintext: str, key: str):
-    IV_BYTES_SIZE = 12
     iv = get_random_bytes(12)
 
     cipher = AES.new(b64decode(key), AES.MODE_GCM, nonce=iv)

@@ -1,7 +1,6 @@
-from typing import Dict, Optional, Union
+from typing import Optional, Union
 
 from pydantic import BaseModel
-from requests import Session
 from typing_extensions import Literal
 
 

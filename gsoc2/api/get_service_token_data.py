@@ -1,6 +1,5 @@
-from requests import Session
-
 from gsoc2.api.models import GetServiceTokenDetailsResponse
+from requests import Session
 
 
 def get_service_token_data_req(
